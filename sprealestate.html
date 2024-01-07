@@ -1,0 +1,1139 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>SP Royal Agency</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="./SP.png" />
+    <link rel="stylesheet" href="./bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="./animate.min.css" type="text/css" />
+    <link rel="stylesheet" href="./magnific-popup.css" type="text/css" />
+    <link rel="stylesheet" href="./font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="./owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="./swiper.min.css" type="text/css" />
+    <link rel="stylesheet" href="./select2.css" type="text/css" />
+    <link rel="stylesheet" href="./default.css" type="text/css" />
+    <link rel="stylesheet" href="./header.css" type="text/css" />
+    <link rel="stylesheet" href="./footer.css" type="text/css" />
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+    <link rel="stylesheet" href="./responsive.css" type="text/css" />
+  </head>
+  <body>
+    <!-- preloader -->
+    <div class="preloader" style="display: none">
+      <div class="d-table">
+        <div class="d-table-cell">
+          <div class="spinner">
+            <div class="circle1"></div>
+            <div class="circle2"></div>
+            <div class="circle3"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- preloader-end -->
+    <!-- ==================== Start cursor ==================== -->
+    <div
+      class="mouse-cursor cursor-outer"
+      style="visibility: visible; transform: translate(1006px, 213px)"
+    ></div>
+    <div
+      class="mouse-cursor cursor-inner"
+      style="visibility: visible; transform: translate(1006px, 213px)"
+    ></div>
+    <!-- ==================== End cursor ==================== -->
+    <!-- Scroll-top -->
+    <button class="scroll-top scroll-to-target open" data-target="html">
+      <i class="fa fa-angle-up"></i>
+    </button>
+    <!-- Scroll-top-end -->
+    <!-- header-start -->
+    <header class="header-one">
+      <div class="header-top-two">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-5">
+              <div class="mail-send">
+                <ul>
+                  <li>
+                    <span class="icon-call">
+                      <img src="./mail-o.png" alt="" />
+                    </span>
+                    <div class="cont-con">
+                      <a href="mailto:sproyalagency23@gmail.com"
+                        >sproyalagency23@gmail.com</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-3">
+              <div class="mail-send fl-right">
+                <ul>
+                  <li>
+                    <link
+                      rel="stylesheet"
+                      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+                    />
+                    <span class="icon-call">
+                      <i
+                        class="fa fa-instagram"
+                        style="font-size: 28px; color: orange"
+                      ></i>
+                    </span>
+                    <div class="cont-con">
+                      <a
+                        href="https://www.instagram.com/sp_royal_agency?igsh=cGozZG4wNm14Ympv"
+                      >
+                        &nbsp;&nbsp;Follow us on Instagram</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="sticky-header" class="main-header menu-area one-header">
+        <div class="container custom-container">
+          <div class="row">
+            <div class="col-12">
+              <div class="mobile-nav-toggler"><i class="fa fa-bars"></i></div>
+              <div class="menu-wrap">
+                <nav class="menu-nav">
+                  <div class="logo">
+                    <a href="./sprealestate.html"
+                      ><img src="/splogo.png" alt=""
+                    /></a>
+                  </div>
+                  <div class="navbar-wrap main-menu d-none d-lg-flex">
+                    <ul class="navigation">
+                      <li class="active menu-item-has-children">
+                        <a href="sprealestate.html">Home</a>
+                      </li>
+                      <li class="menu-item-has-children">
+                        <a href="about.html">About Us</a>
+                      </li>
+
+                      <li>
+                        <a href="#" onclick="showCallConfirmation2()"
+                          >Property</a
+                        >
+                      </li>
+                      <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                  </div>
+                  <div class="header-action d-none d-md-block">
+                    <ul>
+                      <li class="header-btn">
+                        <a
+                          href="#"
+                          class="animation-cer btn-call"
+                          onclick="showCallConfirmation()"
+                        >
+                          <img src="./call.png" alt="Call" />
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+
+              <style>
+                .small-button {
+                  font-size: 10px !important; /* Adjust the font size as needed */
+                  padding: 0px 4px !important; /* Adjust the padding as needed */
+                  background-color: #ffc107;
+                }
+              </style>
+
+              <div class="overlay" id="overlay"></div>
+
+              <div class="popup" id="popup">
+                <p>
+                  <button class="small-button" onclick="closepop()">❌</button>
+                  Select a number:
+                </p>
+                <button onclick="callNumber('+919011268731')">
+                  +91 90112 68731
+                </button>
+                <button onclick="callNumber('+917738947639')">
+                  +91 77389 47639
+                </button>
+              </div>
+
+              <div class="overlay" id="overlay2"></div>
+
+              <div class="popup" id="popup2">
+                <p>
+                  <button class="small-button" onclick="closepop2()">❌</button>
+                  Opening Soon🔜
+                </p>
+              </div>
+
+              <script>
+                function showCallConfirmation() {
+                  document.getElementById("overlay").style.display = "block";
+                  document.getElementById("popup").style.display = "block";
+                }
+
+                function callNumber(number) {
+                  var phoneNumber = "tel:" + number;
+                  window.location.href = phoneNumber;
+
+                  // Close the popup and overlay after initiating the call
+                  document.getElementById("overlay").style.display = "none";
+                  document.getElementById("popup").style.display = "none";
+                }
+                function closepop() {
+                  document.getElementById("overlay").style.display = "none";
+                  document.getElementById("popup").style.display = "none";
+                }
+
+                function showCallConfirmation2() {
+                  document.getElementById("overlay2").style.display = "block";
+                  document.getElementById("popup2").style.display = "block";
+                }
+                function closepop2() {
+                  document.getElementById("overlay2").style.display = "none";
+                  document.getElementById("popup2").style.display = "none";
+                }
+              </script>
+              <style>
+                /* Popup styles */
+                .overlay {
+                  display: none;
+                  position: fixed;
+                  top: 0;
+                  left: 0;
+                  width: 100%;
+                  height: 100%;
+                  background-color: rgba(0, 0, 0, 0.5);
+                  z-index: 999;
+                }
+
+                .popup {
+                  display: none;
+                  position: fixed;
+                  top: 50%;
+                  left: 50%;
+                  transform: translate(-50%, -50%);
+                  padding: 20px;
+                  background-color: #ffc107;
+                  border: 1px solid #ccc;
+                  z-index: 1000;
+                }
+
+                .popup p {
+                  margin: 0 0 15px;
+                }
+
+                .popup button {
+                  padding: 10px;
+                  margin-right: 10px;
+                  cursor: pointer;
+                  background-color: #fae39c;
+                }
+              </style>
+
+              <!-- Mobile Menu  -->
+              <div class="mobile-menu">
+                <nav class="menu-box">
+                  <div class="close-btn"><i class="fa fa-times"></i></div>
+                  <div class="nav-logo">
+                    <a href="./sprealestate.html"
+                      ><img src="./splogo.png" alt="" title=""
+                    /></a>
+                  </div>
+                  <ul>
+                    <li class="header-btn">
+                      <center>
+                        <a
+                          href="#"
+                          class="animation-cer btn-call"
+                          onclick="showCallConfirmation()"
+                        >
+                          <img src="./call.png" alt="Call" />
+                        </a>
+                      </center>
+                    </li>
+                  </ul>
+                  <br />
+
+                  <div class="menu-outer"></div>
+                  <div class="login-p">
+                    <ul>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/sp_royal_agency?igsh=cGozZG4wNm14Ympv"
+                        >
+                          <span class="icon-call">
+                            <i
+                              class="fa fa-instagram"
+                              style="font-size: 28px; color: orange"
+                            ></i>
+                          </span>
+                          <div class="cont-con">Follow us on Instagram</div>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
+                  <div class="social-links">
+                    <ul class="clearfix">
+                      <li>
+                        <a href="#"
+                          ><span class="fa fa-facebook-square"></span
+                        ></a>
+                      </li>
+                      <li>
+                        <a
+                          href="https://www.instagram.com/sp_royal_agency?igsh=cGozZG4wNm14Ympv"
+                          ><span class="fa fa-instagram"></span
+                        ></a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+              </div>
+              <div class="menu-backdrop"></div>
+              <!-- End Mobile Menu -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header-end -->
+
+    <div class="minsection">
+      <!-- Slider-Start -->
+      <div
+        class="swiper mySwiper swiper-initialized swiper-horizontal swiper-pointer-events"
+      >
+        <div
+          class="swiper-wrapper"
+          id="swiper-wrapper-dc89f4eae61bc3a0"
+          aria-live="off"
+          style="
+            transition-duration: 800ms;
+            transform: translate3d(-2002px, 0px, 0px);
+          "
+        >
+          <div
+            class="swiper-slide cover-background"
+            style="background-image: url('./banner1.png'); width: 1001px"
+            role="group"
+            aria-label="1 / 3"
+          ></div>
+          <div
+            class="swiper-slide cover-background swiper-slide-prev"
+            style="background-image: url('./banner2.png'); width: 1001px"
+            role="group"
+            aria-label="2 / 3"
+          ></div>
+          <div
+            class="swiper-slide cover-background swiper-slide-visible swiper-slide-active"
+            style="background-image: url('./banner3.png'); width: 1001px"
+            role="group"
+            aria-label="3 / 3"
+          ></div>
+        </div>
+        <div class="po-ab-se">
+          <div class="container">
+            <div class="content-slider">
+              <h1>Search Your Next Home</h1>
+              <h4>
+                Find new &amp; featured property located in your local city.
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-button-next swiper-button-disabled"
+          tabindex="-1"
+          role="button"
+          aria-label="Next slide"
+          aria-controls="swiper-wrapper-dc89f4eae61bc3a0"
+          aria-disabled="true"
+        ></div>
+        <div
+          class="swiper-button-prev"
+          tabindex="0"
+          role="button"
+          aria-label="Previous slide"
+          aria-controls="swiper-wrapper-dc89f4eae61bc3a0"
+          aria-disabled="false"
+        ></div>
+        <span
+          class="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></span>
+        <span
+          class="swiper-notification"
+          aria-live="assertive"
+          aria-atomic="true"
+        ></span>
+      </div>
+      <br />
+      <br />
+      <br />
+      <!-- Slider-End -->
+
+      <!--Our Main Focus Start-->
+      <section class="pt-90 pb-90 pofocus">
+        <div class="container">
+          <div class="row mb-40">
+            <div class="col-md-8 offset-2">
+              <div class="heading">
+                <h2>Our Main Focus</h2>
+                <p>
+                  Elevate your real estate experience with our unwavering
+                  commitment to personalized service, unmatched expertise, and a
+                  dedication to finding the perfect property. Your dream home or
+                  investment opportunity is our main focus, ensuring a seamless
+                  and rewarding journey in the world of real estate.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 pl-40 pr-40">
+              <div class="min-foc">
+                <span class="img-f">
+                  <img src="./buy-home.png" alt="" class="img-fluid" />
+                </span>
+                <h3>Buy a home</h3>
+                <p>
+                  Let us turn your dream of homeownership into a reality – find
+                  the perfect property that feels like home.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 pl-40 pr-40">
+              <div class="min-foc">
+                <span class="img-f">
+                  <img src="./house.png" alt="" class="img-fluid" />
+                </span>
+                <h3>Rent a home</h3>
+                <p>
+                  Browse through a diverse range of properties suited to your
+                  lifestyle. Find your next home effortlessly.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 pl-40 pr-40">
+              <div class="min-foc">
+                <span class="img-f">
+                  <img src="./sale-min.png" alt="" class="img-fluid" />
+                </span>
+                <h3>Sell a home</h3>
+                <p>
+                  Sell with confidence and ease—let us turn your property into a
+                  successful and rewarding transaction.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Our Main Focus End-->
+      <hr style="border: 0.2px solid black" />
+      <br />
+      <br />
+      <!--Featured Listings Start-->
+      <section class="pt-60 pb-60 pop-pro pop-pro-mar">
+        <div class="container">
+          <div class="row mb-40">
+            <div class="col-md-5">
+              <div class="heading-t fadeInUp animated">
+                <h2>Featured Listings</h2>
+              </div>
+            </div>
+            <div class="col-md-7">
+              <div class="right-all">
+                <a onclick="showCallConfirmation2()" class="view-all"
+                  >+2300 Available Properties</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b">
+                  <a onclick="searchCSV('flat1')">
+                    <img
+                      src="./images/flat1/flat1(1).jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat1')"
+                      >2BHK Converted (Semi Furnished Flat)</a
+                    >
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      New Golden Nest Road (Mira Road)
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">56 Lakh/<span>Negotiable</span></h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 2
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 2
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft 700
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat1')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b" style="height: 58%">
+                  <a onclick="searchCSV('flat2')">
+                    <img src="./images/flat2(1).jpg" alt="" class="img-fluid" />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat2')">1BHK & 2BHK Apartments</a>
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      OM SWAMI SAMARTH COMPLEX
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">📞 for price</h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 1 & 2
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 2
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft -- --
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat2')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b">
+                  <a onclick="searchCSV('flat3')">
+                    <img src="./images/flat3(1).jpg" alt="" class="img-fluid" />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat3')"
+                      >1BHK Apartments near by dmart</a
+                    >
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      Virar east
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">40Lakh/<span>Negotiable</span></h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 1
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 2
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft 315
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat3')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b">
+                  <a onclick="searchCSV('flat4')">
+                    <img src="./images/flat4(1).jpg" alt="" class="img-fluid" />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat4')">5Bhk villa at Mira road</a>
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      Mira Road
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">5.25 Cr/<span>Negotiable</span></h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 5
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 3
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft 145m
+                    </li>
+                  </ul>
+                </div>
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat4')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b">
+                  <a onclick="searchCSV('flat5')">
+                    <img src="./images/flat5(1).jpg" alt="" class="img-fluid" />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat5')"
+                      >1BHK flat at Nallasopara East</a
+                    >
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      Nallasopara East, Central Park
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">📞 for price<span></span></h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 1
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 2
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft -- --
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat5')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4">
+              <div class="min-f-box">
+                <div class="img-f-b">
+                  <a onclick="searchCSV('flat6')">
+                    <img src="./images/flat6(1).jpg" alt="" class="img-fluid" />
+                  </a>
+                  <span class="tag-l">For Sale</span>
+                </div>
+                <div class="f-cont-f">
+                  <h3>
+                    <a onclick="searchCSV('flat6')">1BHK flat for Sale</a>
+                  </h3>
+                  <ul class="img-map-co">
+                    <li>
+                      <img src="./map.png" alt="" class="map-i" />
+                      Virar East
+                    </li>
+                    <li></li>
+                  </ul>
+                  <h3 class="price-m">📞 for price<span></span></h3>
+                  <ul class="amini-con">
+                    <li>
+                      <img src="./b-bed.png" alt="" class="icon-ami" /><br />
+                      Bed 1
+                    </li>
+                    <li>
+                      <img src="./b-bat.png" alt="" class="icon-ami" /><br />
+                      Bath 2
+                    </li>
+                    <li>
+                      <img src="./b-s.png" alt="" class="icon-ami" /><br />
+                      sqft 500
+                    </li>
+                  </ul>
+                </div>
+
+                <div class="detail-b">
+                  <a onclick="searchCSV('flat6')" class="see-det">
+                    See Details
+                  </a>
+                  <button
+                    class="chat-re-s"
+                    data-toggle="modal"
+                    data-target="#myModal-chat"
+                  >
+                    <img src="./messenger.png" alt="" class="mes1" />
+                    <img src="./messenger-o.png" alt="" class="mes2" />
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Featured Listings End-->
+      <!-- JavaScript -->
+      <script>
+        // Function to handle the search button click event
+        // Function to handle the search button click event
+        function searchCSV(searchTerm) {
+          // Read the CSV file
+          fetch("data.csv")
+            .then((response) => response.text())
+            .then((csvData) => {
+              // Parse CSV data
+              const parsedData = parseCSV(csvData);
+
+              // Search for the term in the CSV data
+              const result = searchInCSV(parsedData, searchTerm);
+
+              if (result) {
+                // Store the result in sessionStorage
+                sessionStorage.setItem("searchResult", JSON.stringify(result));
+
+                // Use pushState to update the URL without triggering a page refresh
+                // history.pushState({}, "Search Result", "new_index.html");
+
+                // Redirect to the new_index.html page
+                window.location.href = "Pro-details.html";
+              } else {
+                // Show an error message indicating that the data was not found
+                alert("Data not found. Please try again.");
+              }
+            })
+            .catch((error) => {
+              console.error("Error reading CSV file:", error);
+            });
+        }
+
+        // Function to search for a term in the CSV data
+        function searchInCSV(csvData, searchTerm) {
+          return csvData.find(
+            (row) => row.name.toLowerCase() === searchTerm.toLowerCase()
+          );
+        }
+
+        // Function to parse CSV data into an array of objects
+        function parseCSV(csvData) {
+          const lines = csvData.split("\n");
+          const headers = lines[0].split(",");
+          const result = [];
+
+          for (let i = 1; i < lines.length; i++) {
+            const currentLine = lines[i].split(",");
+            if (currentLine.length === headers.length) {
+              const obj = {};
+              for (let j = 0; j < headers.length; j++) {
+                obj[headers[j].trim().toLowerCase()] = currentLine[j].trim();
+              }
+              result.push(obj);
+            }
+          }
+
+          return result;
+        }
+      </script>
+      <br />
+      <hr style="border: 0.2px solid black" />
+      <br />
+      <!--Why Start-->
+      <section class="why-choose">
+        <div class="row">
+          <div class="col-md-5 pd-0">
+            <div class="full-img">
+              <img src="./why.png" alt="" class="img-fluid" />
+            </div>
+          </div>
+          <div class="col-md-7 pt-50 pb-50 pl-70 pr-50">
+            <div class="right-text">
+              <h2>Why Choose Us</h2>
+              <p>
+                Choose us for your real estate needs and experience unmatched
+                expertise, personalized service, and a commitment to finding
+                your dream home or maximizing the value of your property.
+              </p>
+            </div>
+            <div class="min-s-list row pt-30">
+              <div class="col-md-4">
+                <div class="bg-sec-list mt-45">
+                  <span class="l-img">
+                    <img src="./house-for-sale.png" alt="" />
+                  </span>
+                  <h3>Wide Renge</h3>
+                  <p>
+                    Discover diverse listings, from luxurious estates to cozy
+                    starter homes, catering to every discerning buyer.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bg-sec-list bg-blue">
+                  <span class="l-img">
+                    <img src="./trust.png" alt="" />
+                  </span>
+                  <h3>Trusted</h3>
+                  <p>
+                    Entrust your real estate journey to us, where trust is the
+                    foundation of every transaction.
+                  </p>
+                </div>
+              </div>
+              <div class="col-md-4">
+                <div class="bg-sec-list mt-45">
+                  <span class="l-img">
+                    <img src="./money.png" alt="" />
+                  </span>
+
+                  <h3>Easy Financing</h3>
+                  <p>
+                    Our team streamlines the process, offering easy financing
+                    options tailored to your needs.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <br />
+      <!--Why End-->
+      <!--Our Agents Start-->
+
+      <!--Our Agents End-->
+      <!--Footer Start-->
+      <br />
+      <section class="footer-four pt-80">
+        <div class="container">
+          <div class="row pb-70">
+            <div class="col-md-4 pr-30">
+              <div class="footer-cont footer-logo">
+                <span class="logo-f mar-top mb-30">
+                  <a href="./sprealestate.html">
+                    <img src="./footersplogo.png" alt="" />
+                  </a>
+                </span>
+                <p>
+                  Welcome to SP Royal Agency—your destination for exceptional
+                  real estate experiences. Our seasoned team ensures smooth
+                  transactions for buying, selling, and renting properties.
+                  Explore unique listings with innovative virtual tools, and
+                  discover a community-focused approach through sponsorships and
+                  partnerships. Trust SP Royal for your property journey.
+                </p>
+              </div>
+            </div>
+            <div class="col-md-4 pl-30 pr-30 b-l-r">
+              <div class="footer-cont footer-logo mt-15">
+                <h4>Explore</h4>
+                <ul class="menu-footer wi-50">
+                  <li>
+                    <a style="font-weight: bold" href="about.html">About</a>
+                  </li>
+                  <br />
+                  <li>
+                    <a style="font-weight: bold" href="./contact.html"
+                      >Contact</a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <a style="font-weight: bold" href="./contact.html"
+                      >Support</a
+                    >
+                  </li>
+                  <br />
+                  <li>
+                    <br />
+                    <a style="font-weight: bold" href="./contact.html"
+                      >Properties</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-md-4 pl-30">
+              <div class="footer-cont footer-logo mt-20 subs">
+                <h4>Get a Call Back<br /></h4>
+                <div class="news-f1">
+                  <form
+                    id="my-form-newsletter"
+                    action="https://api.web3forms.com/submit"
+                    method="POST"
+                    class="form-event"
+                  >
+                    <input
+                      type="hidden"
+                      name="access_key"
+                      value="641d1075-a36a-4216-a50d-a069283102ea"
+                    />
+                    <input
+                      type="hidden"
+                      name="subject"
+                      value="New Submission from Web3Forms"
+                    />
+                    <input
+                      type="hidden"
+                      name="redirect"
+                      value="https://web3forms.com/success"
+                    />
+                    <input
+                      type="checkbox"
+                      name="botcheck"
+                      id=""
+                      style="display: none"
+                    />
+                    <input
+                      type="text"
+                      id="name"
+                      name="name"
+                      placeholder="Name"
+                      class="fill form-control"
+                      required
+                    />
+                    <input
+                      type="number"
+                      id="phone"
+                      name="phone"
+                      placeholder="Phone Number"
+                      class="fill form-control"
+                      required
+                    />
+                    <button
+                      class="btn upcase"
+                      type="submit"
+                      name="submitnewsletter"
+                    >
+                      <i class="fa fa-envelope"></i>
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-12 border-t-b">
+              <ul class="social-t fl-left">
+                <li>
+                  <a href="#" class="facebook-change-co"
+                    ><i class="fa fa-facebook-f"></i
+                  ></a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.instagram.com/sp_royal_agency?igsh=cGozZG4wNm14Ympv"
+                    class="linkedin-change-co"
+                    ><i class="fa fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+              <div class="copy-one-to fl-right">
+                <p>© copyright 2024 2025 2026</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Footer End-->
+    </div>
+
+    <!-- Modal booking Start-->
+
+    <!-- Modal booking End-->
+    <!-- JS here -->
+
+    <script src="./jquery-3.6.0.min.js.download"></script>
+    <script src="./bootstrap.min.js.download"></script>
+    <script src="./wow-animate.min.js.download"></script>
+    <script src="./isotope.pkgd.min.js.download"></script>
+    <script src="./jquery.magnific-popup.min.js.download"></script>
+    <script src="./owl.carousel.min.js.download"></script>
+    <script src="./select2.min.js.download"></script>
+    <script src="./swiper.min.js.download"></script>
+    <script src="./main.js.download"></script>
+
+    <script>
+      var x = document.getElementById("resultsubscription");
+      var currentLocation1 = window.location;
+
+      //var url_string = "http://localhost/baby/newform.html?seccess=1"; //window.location.href
+      var url = new URL(currentLocation1);
+      var seccess1 = url.searchParams.get("successreq");
+      var error1 = url.searchParams.get("failreq");
+
+      if (seccess1 == 1) {
+        $(".seccess1").show();
+        $(".error1").hide();
+      } else if (error1 == 1) {
+        $(".seccess1").hide();
+        $(".error1").show();
+      } else {
+        $(".seccess1").hide();
+        $(".error1").hide();
+        //document.getElementById("resultmm").style.display = "none";
+      }
+    </script>
+    <!-- Code injected by live-server -->
+    <script>
+      // <![CDATA[  <-- For SVG support
+      if ("WebSocket" in window) {
+        (function () {
+          function refreshCSS() {
+            var sheets = [].slice.call(document.getElementsByTagName("link"));
+            var head = document.getElementsByTagName("head")[0];
+            for (var i = 0; i < sheets.length; ++i) {
+              var elem = sheets[i];
+              var parent = elem.parentElement || head;
+              parent.removeChild(elem);
+              var rel = elem.rel;
+              if (
+                (elem.href && typeof rel != "string") ||
+                rel.length == 0 ||
+                rel.toLowerCase() == "stylesheet"
+              ) {
+                var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, "");
+                elem.href =
+                  url +
+                  (url.indexOf("?") >= 0 ? "&" : "?") +
+                  "_cacheOverride=" +
+                  new Date().valueOf();
+              }
+              parent.appendChild(elem);
+            }
+          }
+          var protocol =
+            window.location.protocol === "http:" ? "ws://" : "wss://";
+          var address =
+            protocol + window.location.host + window.location.pathname + "/ws";
+          var socket = new WebSocket(address);
+          socket.onmessage = function (msg) {
+            if (msg.data == "reload") window.location.reload();
+            else if (msg.data == "refreshcss") refreshCSS();
+          };
+          if (
+            sessionStorage &&
+            !sessionStorage.getItem("IsThisFirstTime_Log_From_LiveServer")
+          ) {
+            console.log("Live reload enabled.");
+            sessionStorage.setItem("IsThisFirstTime_Log_From_LiveServer", true);
+          }
+        })();
+      } else {
+        console.error(
+          "Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading."
+        );
+      }
+      // ]]>
+    </script>
+  </body>
+</html>
