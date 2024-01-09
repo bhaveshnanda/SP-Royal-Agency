@@ -182,6 +182,7 @@
 }
 
 .navbar-wrap > ul > li.menu-item-has-children > a::before {
+  content: "\f0d7";
   position: absolute;
   right: 20px;
   top: 50%;
